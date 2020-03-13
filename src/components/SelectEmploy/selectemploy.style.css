@@ -1,0 +1,29 @@
+.select-people {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+.select-people-info img {
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+}
+
+.select-people-info {
+	width: 60%;
+}
+.select-people-info h6 {
+	font-size: 11px;
+	text-align: left;
+	color: #565656;
+}
+
+.select-people-info p {
+	font-size: 10px;
+}
+.select-people img {
+	height: 50px;
+	width: 50px;
+}

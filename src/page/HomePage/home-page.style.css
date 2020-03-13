@@ -1,0 +1,35 @@
+.home-page {
+	display: flex;
+	height: 100%;
+}
+
+.peoples {
+	background: #f2f5f9;
+	width: 100%;
+	padding: 10px;
+}
+
+.profiles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: row;
+	height: 100%;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.profiles::-webkit-scrollbar {
+	width: 5px;
+	background-color: transparent;
+}
+
+.profiles::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	-webkit-box-shadow: inset 0 0 6px #fff;
+	background-color: #fff;
+}
+
+.profiles:hover::-webkit-scrollbar-thumb {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
